@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contact="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>reza</title>
+</head>
+<body>
+        <div class="container">
+            <div class="cover">
+                <div class="list_group">
+                    <div class="search_box">
+                        <input type="text" id="search_input" placeholder="جست و جو کنید ...">
+                    </div>
+                    <ul>
+                    </ul>
+                    <div class="add_contact">
+                        <span>جدید</span>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="add_model" id="add_model">
+                        <div class="add_model_cover">
+                            <input type="text" class="add_contact_input" id="contact_name" placeholder="مخاطب جدبد وارد کنید...">
+                            <input type="number" class="add_contact_input" id="contact_num" placeholder="شماره جدید را وارد کنید...">
+                            <button class="add_contact_btn" id="add_contact_btn"><i class="fas fa-address-card"></i></button>
+                        </div>
+                    </div>
+                    <div class="contact_model" id="contact_model">
+                        <div class="contact_model_cover">
+                            <li>
+                                <div class="name contact_model_name" id="contact_model_name"></div>
+                                <div class="phone contact_model_phone" id="contact_model_phone"></div>
+                            </li>
+                            <div class="contact_items">
+                                <div class="contact_items_edit"><i class="fas fa-user-edit"></i></div>
+                                <a id="call_btn" href="tel:+"><div class="contact_items_call"><i class="fas fa-phone"></i></div></a>
+                                <div class="contact_items_delete"><i class="fas fa-trash-alt"></i></div>
+                            </div>
+                            <div class="contact_edit" style="display:none;padding-top: 15px;">
+                                <input type="text" class="add_contact_input" id="edit_contact_input_name">
+                                <input type="number" class="add_contact_input" id="edit_contact_input_num">
+                                <button class="add_contact_btn" id="edit_contact_btn"><i class="fas fa-address-card"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script src="js/app.js"></script>
+</html>
+
+
+
+
+
+
+git remote add origin https://github.com/ramezanidev/contact.git
+git branch -M main
+git push -u origin main
